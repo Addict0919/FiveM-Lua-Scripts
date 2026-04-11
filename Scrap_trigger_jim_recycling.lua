@@ -15,7 +15,7 @@ local triggerCount = 0
 local loopSpeed    = 0     -- ms delay (1000 = slowest, 0 = fastest)
 local loopLimit    = 0     -- 0 = infinite, >0 = stop after N loops
 
--- DELETE key debounce (same pattern as Darkmatter)
+-- DELETE key debounce
 local lastKeyPress = 0
 
 -- Widget top-left position (normalised 0.0 – 1.0)
@@ -105,7 +105,7 @@ Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)
 
-        -- DELETE key toggle — same debounce pattern as Darkmatter
+        -- DELETE key toggle
         if IsControlJustPressed(0, 178) and GetGameTimer() - lastKeyPress > 500 then
             lastKeyPress = GetGameTimer()
             isVisible = not isVisible
