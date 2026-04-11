@@ -3,7 +3,6 @@
 --  DELETE key  →  open / close
 --  X button   →  close
 --  Drag via header, left-click to toggle
---  Works on any server with jim-recycling centers 
 --  Sky City RP
 -- ─────────────────────────────────────────
 
