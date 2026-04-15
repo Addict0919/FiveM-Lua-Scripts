@@ -3,6 +3,7 @@
 --  DELETE key  →  open / close
 --  X button   →  close
 --  Drag via header, left-click to toggle
+--  Instructions: YOU MUST select resource jim-recycling to hook
 --  Works on any server with jim-recycling centers 
 --  Obsidian RP
 --  Reunited RP
