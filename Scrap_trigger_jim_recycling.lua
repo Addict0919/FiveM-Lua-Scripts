@@ -4,9 +4,9 @@
 --  X button   →  close
 --  Drag via header, left-click to toggle
 --  Works on any server with jim-recycling centers 
---  Obsidian RP
+--  UK Ganglife RP
 --  Reunited RP
---  Traplife RP
+--  Obsidian RP
 -- ─────────────────────────────────────────
 
 local isVisible    = true
